@@ -43,14 +43,28 @@ hr{
 }
 
 /*Link do site da fundação */
-a :link {color: green;}
-a :visited{color: yellow;}
-a :hover{color: black;}
-a :active{color: blue;}
+a:link {color: green;}
+a:visited{color: yellow;}
+a:hover{color: black;}
+a:active{color: blue;}
 
 /*Códigos Slide 15 - Módulo 3*/
 a {
     text-decoration: none; /*Tira o sublinhado do link*/
+}
+
+ol{
+    color: antiquewhite; /*Cor da lista*/   
+    /*list-style-type: upper-alpha;  Letras grandes */
+    list-style-type: upper-roman; /* Letras Romanas */
+}
+
+ul{
+    color: antiquewhite; /*Cor da lista*/
+      /*list-style-type: disc; Bola preta */
+      /*list-style-type: circle; /*Circulo */
+      list-style-type:square;    /*Quadrado*/
+
 }
 
 
