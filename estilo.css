@@ -1,6 +1,7 @@
 
 body{
-    background-color: aquamarine;
+    background-color: blanchedalmond;
+   
 }
 /*Fazendo o teste do CSS com a HTML*/
 .strong {
@@ -14,7 +15,20 @@ h1{
     font-size: 20px;
 }
 p {
-    margin-left: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
+hr{
+    color: navy;
+}
+
+/*Link do site da fundação */
+a :link {color: green;}
+a :visited{color: yellow;}
+a :hover{color: black;}
+a :active{color: blue;}
 
