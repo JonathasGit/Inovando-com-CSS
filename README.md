@@ -10,3 +10,5 @@ Curso composto por 5 Módulos: <br>
 
 Deixarei Issues relacionadas a cada módulo. 
 
+Curso completo: <a href="https://lms.ev.org.br/mpls/Web/Lms/Student/PrintCertificateDialog.aspx?prlEx7nnyWcHKwuNhWiD3croM%2b3YsJJg">Certificado</a>
+
