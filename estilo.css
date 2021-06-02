@@ -7,6 +7,7 @@ body{
     /*background-repeat: repeat-y;  Imagem em Vertical*/
     background-attachment: fixed; /*Define se o plano de fundo fica fixo ou não*/
     background-position: center; /*Define a direção da imagem de fundo*/
+    margin: 100px 40px 10px 70px; /*Define margem  top, right, bottom, left*/
     
    
 }
@@ -23,6 +24,8 @@ h2{
 h1{
     font-size: 20px;
     text-decoration: overline;/*Adiciona uma linha acima do texto*/
+    /*background-color: orange;  cor de fundo*/
+    /*padding: 10px 10px 10px 30px; Define tamanho do fundo*/
 }
 p {
     text-align: center;
@@ -91,3 +94,22 @@ span.alimento{
     color: red;
 }
 
+#insetos{
+    background-color: black;
+}
+
+#repteis{
+    background-color: black;
+}
+
+div.box{
+    width: 200px;
+    height: 500px;
+    border: 1px solid white;
+    background: orange;
+}
+
+#imagem{
+    float: left;
+    width: 100px;
+}
