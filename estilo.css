@@ -37,6 +37,10 @@ h3{
     text-transform: uppercase; /*Todas letras maisculas*/
     
 }
+h4{
+    text-align: center;
+    color: aqua;
+}
 
 hr{
     color: navy;
@@ -67,4 +71,23 @@ ul{
 
 }
 
+
+
+/* Classificamos os texto como ID, ai podemos modificar eles (Porque editamos antes como "class", como id ele perde os valores de class)*/
+#c1 {
+    color: blue;
+    text-align: left;
+     
+}
+
+#c1-1{
+    color: blue;
+    text-align: left;
+}
+
+
+/*Formatação para op span, que deixa palavra em destaque no texto*/
+span.alimento{
+    color: red;
+}
 
