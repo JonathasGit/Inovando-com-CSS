@@ -1,6 +1,13 @@
 
 body{
-    background-color: #90cde6;
+    background-image: url(img/fundo1.jpg); /*Colocando uma imagem de fundo*/
+    background-color: #90cde6; /*Colocando cor de fundo*/
+    /*background-repeat: no-repeat; Imagem sem repetir*/
+    /*background-repeat: repeat-x;  Imagem em horizontal*/
+    /*background-repeat: repeat-y;  Imagem em Vertical*/
+    background-attachment: fixed; /*Define se o plano de fundo fica fixo ou não*/
+    background-position: center; /*Define a direção da imagem de fundo*/
+    
    
 }
 /*Fazendo o teste do CSS com a HTML*/
@@ -9,16 +16,25 @@ body{
 } 
 h2{
     color: blue;
+    text-decoration: line-through;/*Risca o texto*/
+    text-transform: lowercase;/*Texto em minusculo*/
 }
 
 h1{
     font-size: 20px;
+    text-decoration: overline;/*Adiciona uma linha acima do texto*/
 }
 p {
     text-align: center;
     font-size: 16px;
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize; /*Primeira letra maiscula em todas palavras do texto*/
+    }
+
+h3{
+    text-decoration: underline; /*Sublinha o texto*/
+    text-transform: uppercase; /*Todas letras maisculas*/
     
 }
 
@@ -31,4 +47,10 @@ a :link {color: green;}
 a :visited{color: yellow;}
 a :hover{color: black;}
 a :active{color: blue;}
+
+/*Códigos Slide 15 - Módulo 3*/
+a {
+    text-decoration: none; /*Tira o sublinhado do link*/
+}
+
 
