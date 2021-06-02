@@ -1,5 +1,20 @@
 
+body{
+    background-color: aquamarine;
+}
 /*Fazendo o teste do CSS com a HTML*/
 .strong {
     color: red;
 } 
+h2{
+    color: blue;
+}
+
+h1{
+    font-size: 20px;
+}
+p {
+    margin-left: 50px;
+}
+
+
