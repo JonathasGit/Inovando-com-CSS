@@ -33,6 +33,7 @@ p {
     margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize; /*Primeira letra maiscula em todas palavras do texto*/
+    clear: both; /* Controla os comportamentos dos itens que vem de float (linha 114)*/
     }
 
 h3{
@@ -110,6 +111,39 @@ div.box{
 }
 
 #imagem{
-    float: left;
+    float: left; /*Linha 36*/
     width: 100px;
+}
+
+#box1{
+    position: relative; /*Para movimentar pela página*/
+    top: 30px;
+    left: 350px;
+    background: red;
+    width: 50px;
+    height: 50px;
+}
+#box2{
+    position: none;
+    top: 30px;
+    left: 30px;
+    background: blue;
+    width: 50px;
+    height: 50px;
+}
+#box3{
+    position: none;
+    top: 30px;
+    left: 30px;
+    background: green;
+    width: 50px;
+    height: 50px;
+}
+#box4{
+    position: none;
+    top: 30px;
+    left: 30px;
+    background: yellow;
+    width: 50px;
+    height: 50px;
 }
